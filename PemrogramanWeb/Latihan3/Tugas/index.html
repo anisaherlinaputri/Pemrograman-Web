@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>Catatan Penjual Toko</title>
+    </head>
+    <body>
+        <h2>Input Data Penjualan</h2>
+        <form action="Penjualan.php" method="post">
+            <label for="product_name">Nama Produk:</label>
+            <input type="text" id="product_name" name="product_name"><br><br>
+            <label for="price">Harga produk:</label>
+            <input type="number" id="price" name="price" step="0.01" required><br><br>
+            <label for="quantity">Jumlah Terjual:</label>
+            <input type="number" id="quantity" name="quantity" required><br><br>
+            <input type="submit" value="Tambahkan Penjualan">
+        </form>
+        <br>
+        <h2>Laporan Penjualan</h2>
+        <a href="Penjualan.php">Lihat Laporan Penjualan</a>
+    </body>
+</html>
